@@ -28,12 +28,11 @@ browser and pin Tampermonkey so its icon is easy to find.
 
 Download this file only:
 
-**`instagram-dm-unsender.user.js`**
+[`dist/instagram-dm-unsender.user.js`](dist/instagram-dm-unsender.user.js)
 
-To download it, open this project's GitHub page, click **Releases**, open the
-latest release, and click **`instagram-dm-unsender.user.js`** under
-**Assets**. Do not download files from the **Code** page; the source files
-there are not the ready-to-install script.
+On this project's GitHub page, click **Code**, open the `dist` folder, and
+click **`instagram-dm-unsender.user.js`**. On the file page, click **Raw**,
+then save the page as `instagram-dm-unsender.user.js`.
 
 ### 3. Load the script into Tampermonkey
 
@@ -98,9 +97,8 @@ npm run build
 The build creates `dist/instagram-dm-unsender.user.js`, which can be loaded
 into Tampermonkey using the steps above.
 
-When publishing a release, attach that generated `.user.js` file to the
-release's **Assets** section. Users should download it from there, not from the
-source-code folders.
+After changing the source code, rebuild the project and commit the updated
+file in `dist` so users always download the latest version.
 
 ## License
 
