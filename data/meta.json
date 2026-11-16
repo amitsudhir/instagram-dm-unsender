@@ -1,0 +1,11 @@
+{
+    "name": "Instagram DM Unsender",
+    "namespace": "instagram-dm-unsender",
+    "version": "",
+    "description": "Unsend messages from an Instagram DM thread one at a time.",
+    "match": "https://www.instagram.com/direct/*",
+    "run-at": "document-end",
+    "grant": "none",
+    "license": "MIT",
+    "icon": "https://www.instagram.com/favicon.ico"
+}
